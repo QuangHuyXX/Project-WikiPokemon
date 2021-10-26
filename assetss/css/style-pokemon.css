@@ -1,0 +1,212 @@
+
+/* Body  */
+.body {
+    position: absolute;
+    top:5%;
+    right:0;
+    left:0;
+}
+.body__detail {
+    width:1200px;
+    margin:0 auto;
+}
+/* Body-left */
+/* Name and img */
+.body__detail-name { 
+    margin:0;
+    padding:10px 20px;
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.body__detail-name-ver2 {
+    margin:0;
+    padding: 10px 95px;
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.body__detail-bg {
+}
+.body__detail-bg-img {
+    width:100%;
+}
+/* End name and img */
+
+/* Pokemon stat */
+.body__detail-stat-list {
+   height:200px;
+   justify-content: space-around;
+   align-items: flex-end;
+}
+.body__detail-stat-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.body__detail-stat-item-index {
+    width: 20px;
+    height:var(--index);
+    background-color: royalblue;
+    animation: growthStat linear 2s;
+}
+/* End pokemon stat */
+
+/* Type the pokemon */
+/* Red */
+.body__detail-item-type-fire {
+    font-size: 25px;
+    background-color: red;
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-fire-img {
+    width: 20px;
+    height: 20px;
+}
+/* Grass */
+.body__detail-item-type-grass{
+    font-size: 25px;
+    background-color:rgb(96, 223, 96);
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-grass-img{
+    width: 20px;
+    height: 20px;
+}
+/* Poison */
+.body__detail-item-type-poison{
+    font-size: 25px;
+    background-color:rgb(98 9 167);
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-poison-img{
+    width: 20px;
+    height: 20px;
+}
+/* Water */
+.body__detail-item-type-water{
+    font-size: 25px;
+    background-color: rgb(18, 105, 219);
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-water-img{
+    width: 20px;
+    height: 20px;
+}
+/* Dragon */
+.body__detail-item-type-dragon{
+    font-size: 25px;
+    background: -webkit-linear-gradient(
+90deg, #53a4cf 50%, #f16e57 50%);
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-dragon-img{
+    width: 20px;
+    height: 20px;
+}
+/*Bug */
+.body__detail-item-type-bug{
+    font-size: 25px;
+    background-color:  green;
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-bug-img{
+    width: 20px;
+    height: 20px;
+}
+/* Flying */
+.body__detail-item-type-flying{
+    font-size: 25px;
+    background-color:   rgb(109, 128, 143);
+    display: inline-block;
+    padding:5px 15px;
+    color:#fff;
+    border-radius: 20px;
+}
+.body__detail-item-type-flying-img{
+    width: 20px;
+    height: 20px;
+}
+/* Ending type */
+
+/* Body-right*/
+.body__detail-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+.body__detail-item {
+    margin:0;
+    padding:15px;
+}
+
+.body__detail-item-title {
+    font-size:40px;
+    font-weight: 700;
+    margin:10px 0;
+}
+
+.body__detail-item-des {
+    font-size:24px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.body__detail-item-images {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.body__detail-item-img {
+    flex-basis: 33.333%;
+    text-align: center;
+}
+
+.body__detail-item-img-bg {
+    width:200px;
+}
+
+.body__detail-item-img-name {
+    font-size:20px;
+    font-weight: 700;
+}
+/* End body-right *
+/* End body/ */
+
+/* Footer */
+.footer {
+    background-color: rgb(214, 214, 214);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom:0;
+
+}
+.footer__info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+/* ^^ We did it <3 */

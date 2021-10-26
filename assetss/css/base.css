@@ -1,0 +1,32 @@
+.grid {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col-4 {
+    flex-basis: 33.333%;
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+}
+.col-8 {
+    flex-basis: 66.667%;
+    width: 66.667%;
+    display: flex;
+    flex-direction: column;
+}
+/* animation growthStat */
+@keyframes growthStat {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: var(--index);
+    }
+}

@@ -1,0 +1,156 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.main {
+  width: 100vw;
+}
+
+.body {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 5%;
+  bottom: 0;
+}
+
+.body-pokemon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.body-pokemon-img {
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  background-image: url("../image/Pokeball1-removebg-.png");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+
+}
+
+.body-pokemon-item {
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+
+}
+
+.body-pokemon-name {
+  margin-top: 100px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+}
+/* if hover */
+.body-pokemon-item:hover .body-pokemon-img {
+  transform: scale(1.5);
+  transition: 2s;
+  /* animation: fadeout linear 2s; */
+}
+/* animation  */
+@keyframes fadeout {
+  0% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Charmander */
+.body-pokemon-item:nth-child(1) .body-pokemon-img:hover {
+  background-image: url(../image/Charmander.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.known {
+  display: none;
+  transition: 5s;
+}
+/* Transition */
+.body-pokemon-item:nth-child(1) .body-pokemon-img:hover~.body-pokemon-name .known {
+  display: block;
+}
+
+.body-pokemon-item:nth-child(1) .body-pokemon-img:hover~.body-pokemon-name .unknown {
+  display: none;
+}
+
+/* Bulbasaur */
+.body-pokemon-item:nth-child(2) .body-pokemon-img:hover {
+  background-image: url(../image/Bulbasaur.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Transition */
+.body-pokemon-item:nth-child(2) .body-pokemon-img:hover~.body-pokemon-name .known {
+  display: block;
+}
+
+.body-pokemon-item:nth-child(2) .body-pokemon-img:hover~.body-pokemon-name .unknown {
+  display: none;
+}
+
+/* Squirtle */
+.body-pokemon-item:nth-child(3) .body-pokemon-img:hover {
+  background-image: url(../image/squirtle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Transition */
+.body-pokemon-item:nth-child(3) .body-pokemon-img:hover~.body-pokemon-name .known {
+  display: block;
+}
+
+.body-pokemon-item:nth-child(3) .body-pokemon-img:hover~.body-pokemon-name .unknown {
+  display: none;
+}
+
+/* Scyther */
+.body-pokemon-item:nth-child(4) .body-pokemon-img:hover {
+  background-image: url(../image/Scyther.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Transition */
+.body-pokemon-item:nth-child(4) .body-pokemon-img:hover~.body-pokemon-name .known {
+  display: block;
+}
+
+.body-pokemon-item:nth-child(4) .body-pokemon-img:hover~.body-pokemon-name .unknown {
+  display: none;
+}
+
+/* Dratini */
+.body-pokemon-item:nth-child(5) .body-pokemon-img:hover {
+  background-image: url(../image/Dratini.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Transition */
+.body-pokemon-item:nth-child(5) .body-pokemon-img:hover~.body-pokemon-name .known {
+  display: block;
+}
+
+.body-pokemon-item:nth-child(5) .body-pokemon-img:hover~.body-pokemon-name .unknown {
+  display: none;
+}
